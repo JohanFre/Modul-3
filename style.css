@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  padding: 0 20px;
+  background-color: lightgoldenrodyellow;
+}
+
+main {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+p {
+  text-align: left;
+  padding: 0 20px;
+}
+
+code {
+  color: firebrick;
+}
+
+button {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 400px;
+  height: auto;
+}
