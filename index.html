@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="wrapper">
+      <!-- Dropdown menu & button for submit -->
+      <form class="animalForm">
+        <label for="animalForm">Choose an animal:</label>
+        <select class="animalDropForm">
+          <option value="Cat">Katt</option>
+          <option value="Dog">Hund</option>
+          <option value="Fox">Räv</option>
+        </select>
+        <button type="submit">Visa djur!</button>
+      </form>
 
-        <!-- Dropdown menu & button for submit -->
-        <form class="animalForm">
-            <label for="animalForm">Choose an animal:</label>
-            <select class="animalDropForm">
-                  <option value="Cat">Katt</option>
-                  <option value="Dog">Hund</option>
-                  <option value="Fox">Räv</option>
-          </select>
-            <button type="submit">Visa djur!</button>
-          </form>
-        
-        <!-- Placeholder for fetched image   -->
-          <img src="" class="displayedImage"><br>
+      <!-- Placeholder for fetched image   -->
+      <img src="" class="displayedImage" /><br />
 
-    <!-- List for saving img on "click" listener        -->
+      <!-- List for saving img on "click" listener        -->
     </div>
     <div class="favorites">
-        <ul class="favoritePictures">Your favorites</ul>
+      <ul class="favoritePictures">
+        Your favorites
+      </ul>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
